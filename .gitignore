@@ -34,3 +34,5 @@
 .vs
 tmp
 bin
+Debug
+Release

@@ -1,0 +1,4 @@
+LIBRARY HookDll
+EXPORTS
+Hook		@1
+
