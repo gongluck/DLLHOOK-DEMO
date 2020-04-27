@@ -1,8 +1,11 @@
 ﻿// dllmain.cpp : 定义 DLL 应用程序的入口点。
 #include "pch.h"
 
+#pragma data_seg("shared")
 HHOOK g_hmouse = nullptr;
 HHOOK g_hkey = nullptr;
+#pragma data_seg()
+#pragma comment(linker, "/section:shared,RWS")
 
 LRESULT CALLBACK MouseProc(
     int nCode,      // hook code

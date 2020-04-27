@@ -8,6 +8,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookDll", "HookDll\HookDll.vcxproj", "{C910F0BE-321D-4C53-9BA4-AC05E3C8EFA5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlobalHook", "GlobalHook\GlobalHook.vcxproj", "{E4590E2A-C83E-475A-801C-767C33B70E90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C910F0BE-321D-4C53-9BA4-AC05E3C8EFA5} = {C910F0BE-321D-4C53-9BA4-AC05E3C8EFA5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
