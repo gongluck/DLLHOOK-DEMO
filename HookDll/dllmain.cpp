@@ -26,6 +26,7 @@ LRESULT CALLBACK KeyboardProc(
         UnhookWindowsHookEx(g_hmouse);
         UnhookWindowsHookEx(g_hkey);
         MessageBeep(-1);
+        //MessageBox(nullptr, TEXT("Quit"), TEXT("Quit"), MB_OK);
     }
     return 1;
 }
